@@ -42,19 +42,20 @@ body {
     }
 }
 
-.header-container {
-    position: absolute;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-}
+// .header-container {
+//     position: absolute;
+//     display: block;
+//     left: 50%;
+//     transform: translateX(-50%);
+// }
 
 .heading-secondary {
     font-size: 2rem;
+    display: inline-block;
     margin: 0 auto;
     color: $black-color;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: .5rem;
 
     &::after {

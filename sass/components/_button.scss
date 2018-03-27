@@ -3,12 +3,12 @@
     &:visited {
         text-decoration: none;
         font-size: 1.4rem;
-        font-weight: 400;
+        font-weight: 900;
         display: inline-block;
-        padding: 1rem 2rem;
+        padding: .8rem 4rem;
         text-transform: uppercase;
-        border-radius: 10rem;
-        letter-spacing: .1rem;
+        letter-spacing: .2rem;
+        border-radius: 1rem;
         transition: all .3s;
         background-color: $medium-orange-color;
     }
@@ -23,12 +23,14 @@
     }
     
     &:hover {
+        background-color: $dark-orange-color;
         transform: translateY(-.2rem);
-        box-shadow: .3rem .4rem 0rem rgba($black-color, 0.15);
+        box-shadow: .2rem .2rem 0rem rgba($black-color, 0.15);
     }
     
     &:active {
+        background-color: $dark-orange-color;
         transform: translateY(-.1rem);
-        box-shadow: .3rem .1rem 0rem rgba($black-color, 0.15);
+        box-shadow: .2rem .1rem 0rem rgba($black-color, 0.15);
     }    
 }

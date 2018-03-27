@@ -68,18 +68,13 @@ body {
     letter-spacing: .5rem;
     color: #FFF; }
 
-.header-container {
-  position: absolute;
-  display: block;
-  left: 50%;
-  transform: translateX(-50%); }
-
 .heading-secondary {
   font-size: 2rem;
+  display: inline-block;
   margin: 0 auto;
   color: #000;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: .5rem; }
   .heading-secondary::after {
     content: "";
@@ -97,17 +92,17 @@ body {
   margin-bottom: 4rem; }
 
 .u-big-margin-top {
-  margin-top: 4rem; }
+  margin-top: 6rem; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 900;
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: .8rem 4rem;
   text-transform: uppercase;
-  border-radius: 10rem;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
+  border-radius: 1rem;
   transition: all .3s;
   background-color: #fd8a10; }
 
@@ -119,19 +114,21 @@ body {
   color: #F8F8F8; }
 
 .btn:hover {
+  background-color: #CB6800;
   transform: translateY(-0.2rem);
-  box-shadow: 0.3rem 0.4rem 0rem rgba(0, 0, 0, 0.15); }
+  box-shadow: 0.2rem 0.2rem 0rem rgba(0, 0, 0, 0.15); }
 
 .btn:active {
+  background-color: #CB6800;
   transform: translateY(-0.1rem);
-  box-shadow: 0.3rem 0.1rem 0rem rgba(0, 0, 0, 0.15); }
+  box-shadow: 0.2rem 0.1rem 0rem rgba(0, 0, 0, 0.15); }
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/1.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   position: relative; }
   .header--opacity-animated {
     animation: opacityElement .8s ease-in .3s;
@@ -177,7 +174,7 @@ body {
         background-color: #FFF;
         transform: scaleX(0);
         transform-origin: left;
-        transition: transform .8s; }
+        transition: transform 1s; }
       .header__main-nav__menu--border-underliner:hover::after {
         transform: scaleX(1); }
   .header__text-box {
@@ -214,6 +211,4 @@ body {
     width: calc(2 * ((100% - (6rem)*3) / 4) + 6rem); }
 
 .about-section {
-  height: 100vh;
-  background-color: #FFF;
-  position: relative; }
+  background-color: #FFF; }
