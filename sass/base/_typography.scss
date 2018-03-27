@@ -8,8 +8,7 @@ body {
 }
 
 .heading-primary {
-    color: $light-grey-color;
-    text-transform: uppercase;
+    color: $white-color;
     margin-bottom: 4rem;
 
     &--in-left-animated {
@@ -19,9 +18,10 @@ body {
 
     &--main {
         display: block;
+        text-transform: uppercase;
         font-size: 5rem;
-        font-weight: 700;
-        letter-spacing: 1rem;
+        font-weight: 900;
+        letter-spacing: .5rem;
         padding-bottom: 2rem;
     }
 
@@ -30,7 +30,7 @@ body {
         display: block;
         width: 100%;
         height: .2rem;
-        background-color:$light-grey-color;
+        background-color:$white-color;
     }
 
     &--sub {
@@ -38,19 +38,24 @@ body {
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: .5rem;
-        color: $light-grey-color;
+        color: $white-color;
     }
+}
+
+.header-container {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .heading-secondary {
     font-size: 2rem;
     margin: 0 auto;
-    color: #414141;
+    color: $black-color;
     text-transform: uppercase;
-    text-align: center;
     font-weight: 400;
     letter-spacing: .5rem;
-    padding-top: 4rem;
 
     &::after {
         content: "";
@@ -59,6 +64,6 @@ body {
         margin: 0 auto;
         margin-top: 1rem;
         width: 8rem;
-        background-color: $medium-red-wine-color;
+        background-color: $medium-orange-color;
     }
 }
