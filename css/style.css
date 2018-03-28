@@ -69,10 +69,10 @@ body {
     color: #FFF; }
 
 .heading-secondary {
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: inline-block;
   margin: 0 auto;
-  color: #000;
+  color: #414141;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: .5rem; }
@@ -85,14 +85,40 @@ body {
     width: 8rem;
     background-color: #fd8a10; }
 
+.heading-tertiary {
+  font-size: 1.7rem;
+  color: #000;
+  font-weight: 900;
+  letter-spacing: .3rem;
+  color: #CB6800; }
+
+.paragraph {
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #000; }
+
 .u-center-text {
   text-align: center; }
 
 .u-big-margin-bottom {
+  margin-bottom: 8rem; }
+
+.u-medium-margin-bottom {
+  margin-bottom: 6rem; }
+
+.u-small-margin-bottom {
   margin-bottom: 4rem; }
 
 .u-big-margin-top {
+  margin-top: 8rem; }
+
+.u-medium-margin-top {
   margin-top: 6rem; }
+
+.u-small-margin-top {
+  margin-top: 4rem; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
@@ -211,4 +237,5 @@ body {
     width: calc(2 * ((100% - (6rem)*3) / 4) + 6rem); }
 
 .about-section {
-  background-color: #FFF; }
+  background-color: #FFF;
+  height: 50rem; }

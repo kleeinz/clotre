@@ -50,10 +50,10 @@ body {
 // }
 
 .heading-secondary {
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: inline-block;
     margin: 0 auto;
-    color: $black-color;
+    color: $dark-grey-color;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .5rem;
@@ -67,4 +67,21 @@ body {
         width: 8rem;
         background-color: $medium-orange-color;
     }
+}
+
+.heading-tertiary {
+    font-size: 1.7rem;
+    color: $black-color;
+    font-weight: 900;
+    letter-spacing: .3rem;
+    color: $dark-orange-color;
+}
+
+.paragraph {
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    font-weight: 400;
+    color: $black-color;
+    
 }
