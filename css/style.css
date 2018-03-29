@@ -92,12 +92,22 @@ body {
   letter-spacing: .3rem;
   color: #CB6800; }
 
+.paragraph-container {
+  width: 70%;
+  margin: 0 auto; }
+
 .paragraph {
   padding: 2rem 1rem;
   font-size: 1.5rem;
   line-height: 1.7;
   font-weight: 400;
+  word-spacing: .3rem;
   color: #000; }
+
+.icon-paragraph {
+  font-size: 8rem;
+  display: block;
+  color: #FFA342; }
 
 .u-center-text {
   text-align: center; }
@@ -109,7 +119,7 @@ body {
   margin-bottom: 6rem; }
 
 .u-small-margin-bottom {
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
 
 .u-big-margin-top {
   margin-top: 8rem; }
@@ -118,7 +128,7 @@ body {
   margin-top: 6rem; }
 
 .u-small-margin-top {
-  margin-top: 4rem; }
+  margin-top: 2rem; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
@@ -238,4 +248,9 @@ body {
 
 .about-section {
   background-color: #FFF;
-  height: 50rem; }
+  height: 60rem;
+  border-bottom: 0.1rem solid #C9C9C9; }
+
+.projects-section {
+  background-color: #F8F8F8;
+  height: 60rem; }

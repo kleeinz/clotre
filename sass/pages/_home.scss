@@ -1,4 +1,10 @@
 .about-section {
     background-color: $white-color;
-    height: 50rem;
+    height: 60rem;
+    border-bottom: .1rem solid $medium-grey-color;
+}
+
+.projects-section {
+    background-color: $light-grey-color;
+    height: 60rem;
 }

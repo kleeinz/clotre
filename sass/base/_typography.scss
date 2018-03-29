@@ -42,12 +42,6 @@ body {
     }
 }
 
-// .header-container {
-//     position: absolute;
-//     display: block;
-//     left: 50%;
-//     transform: translateX(-50%);
-// }
 
 .heading-secondary {
     font-size: 2.5rem;
@@ -77,11 +71,24 @@ body {
     color: $dark-orange-color;
 }
 
+
+.paragraph-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .paragraph {
     padding: 2rem 1rem;
     font-size: 1.5rem;
     line-height: 1.7;
     font-weight: 400;
+    word-spacing: .3rem;
     color: $black-color;
-    
 }
+
+.icon-paragraph {
+    font-size: 8rem;
+    display: block;
+    color: $light-orange-color;
+}
+
